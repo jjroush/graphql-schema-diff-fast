@@ -1,0 +1,16 @@
+type Pizza {
+    id: ID!
+    name: PizzaName
+    toppings: [Topping!]!
+}
+
+type PizzaName {
+    english: String
+    italian: String!
+}
+
+enum Topping {
+    OLIVES
+    PEPPORONI
+    PINEAPPLE
+}

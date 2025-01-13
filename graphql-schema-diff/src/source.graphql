@@ -1,0 +1,11 @@
+type Pizza {
+    id: ID!
+    name: PizzaName
+    toppings: [Topping!]!
+}
+
+enum Topping {
+    OLIVES
+    MUSHROOMS
+    PINEAPPLE
+}
